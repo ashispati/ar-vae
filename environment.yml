@@ -1,0 +1,41 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - asn1crypto=1.2.0
+  - ca-certificates=2019.10.16
+  - certifi=2019.9.11
+  - cffi=1.13.0
+  - chardet=3.0.4
+  - conda=4.7.12
+  - conda-package-handling=1.6.0
+  - cryptography=2.8
+  - idna=2.8
+  - libedit=3.1.20181209
+  - libffi=3.2.1
+  - libgcc-ng=9.1.0
+  - libstdcxx-ng=9.1.0
+  - ncurses=6.1
+  - openssl=1.1.1d
+  - pip=19.3.1
+  - pycosat=0.6.3
+  - pycparser=2.19
+  - pyopenssl=19.0.0
+  - pysocks=1.7.1
+  - python=3.7.4
+  - readline=7.0
+  - requests=2.22.0
+  - ruamel_yaml=0.15.46
+  - setuptools=41.4.0
+  - six=1.12.0
+  - sqlite=3.30.0
+  - tk=8.6.8
+  - tqdm=4.36.1
+  - urllib3=1.24.2
+  - wheel=0.33.6
+  - xz=5.2.4
+  - yaml=0.1.7
+  - zlib=1.2.11
+prefix: /home/apati/miniconda3
+
