@@ -1,6 +1,6 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ff69b4.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Attribute-Regularized VAE (AR-VAE)
+## AR-VAE: Attribute-based Regularized of VAE Latent Spaces
 
 ### About 
 AR-VAE is a type of Variational Auto-Encoder (VAE) which uses a new supervised training method to create structured latent spaces where specific attributes are forced to be encoded along specific dimensions of the latent space. This repository contains the source for training and evaluating the AR-VAE models across different image and music-based datasets.
