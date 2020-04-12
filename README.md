@@ -7,7 +7,7 @@ AR-VAE is a type of Variational Auto-Encoder (VAE) which uses a new supervised t
 
 The figure below shows the main idea behind the AR-VAE model.
 <p align="center">
-    <img src=figs/motivation_arvae.svg width=400px><br>
+    <img src=figs/motivation_arvae.svg width=500px><br>
 </p>
 
 This repository contains the source for training and evaluating the AR-VAE models across different image and music-based datasets. 
