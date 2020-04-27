@@ -70,7 +70,7 @@ Disentanglement of latent spaces is evaluated using several objective metrics (h
   <img src="../figs/evaluation_SAP.png" width="250" />
 </p>
 
-3. **Reconstruction Accuracy**
+3. **Reconstruction Fidelity**
 
 The figure below shows examples of reconstruction in the image-based datasets. The AR-VAE model has sharper reconstructions compared to the beta-VAE model.
 
