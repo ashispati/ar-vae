@@ -13,13 +13,7 @@ The goal is to structure the latent space such that if the attribute value `a` o
 
 
 ### Experimental Results
-We compare the performance of our model against the [beta-VAE](https://pdfs.semanticscholar.org/a902/26c41b79f8b06007609f39f82757073641e2.pdf) model using datasets from both image and music domains. 
-
-**Latent Space Disentanglement**
-
-Disentanglement of latent spaces is evaluated using several objective metrics (higher is better). The box plots below show the results for all the four datsets considered. AR-VAE scores better than the baseline across different metrics. 
-
-
+We compare the performance of our model against the [beta-VAE](https://pdfs.semanticscholar.org/a902/26c41b79f8b06007609f39f82757073641e2.pdf) model using datasets from both image and music domains using a wide range of quantitative and qualitative evalution methods. 
 
 **Manipulation of Image Attributes**
 
@@ -58,6 +52,24 @@ Piano roll version of the figure above is shown below. Plots on the right of eac
     <img src=../figs/interp_pianoroll_15_11.svg><br>
 </p>    
 
+**Latent Space Disentanglement**
+
+Disentanglement of latent spaces is evaluated using several objective metrics (higher is better). The box plots below show the results for all the four datsets considered. AR-VAE scores better than the baseline across different metrics. 
+
+<p float="center">
+  <img src="../figs/evaluation_Interpretability.png" width="250" />
+  <img src="../figs/evaluation_MIG.png" width="250" /> 
+  <img src="../figs/evaluation_SAP.png" width="250" />
+</p>
+
+**Reconstruction Accuracy**
+
+The figure below shows examples of reconstruction in the image-based datasets. The AR-VAE model has sharper reconstructions compared to the beta-VAE model.
+
+<p align="center">
+    <img src=../figs/recons_examples.png width="500"><br>
+</p>  
+
 
 ### Additional Information
-For more information on how use the code in this repository, please see readme of [this](https://github.com/ashispati/ar-vae) repository. For more details regarding the experiments, model configurations, please refer our [paper](https://arxiv.org/pdf/2004.05485.pdf).
+For more information on how use the code in this repository, please see readme of [this](https://github.com/ashispati/ar-vae) repository. For more details regarding the model configurations, experiments, and additional results, please refer our [paper](https://arxiv.org/pdf/2004.05485.pdf).
