@@ -1,4 +1,4 @@
-## AR-VAE: Attribute-based Regularized of VAE Latent Spaces
+## AR-VAE: Attribute-based Regularization of VAE Latent Spaces
 
 ### Introduction 
 Selective manipulation of data attributes using deep generative models is an active area of research in the machine learning community. Latent representation-based models such as Variational Auto-Encoders (VAEs) show promise in this direction as they can encode hidden attributes of data. The goal of this research work is to make these latent spaces more **interpretable** by encoding **semantically meaningful attributes** along **specific dimensions** of the latent space. 
