@@ -50,7 +50,7 @@ Piano roll version of the figure above is shown below. Plots on the right of eac
     <img src=../figs/interp_pianoroll_15_11.svg><br>
 </p>   
 
-In comparison, the baseline beta-VAE often either fails to encode specific attribute properly or fails to retain the content of the original data. 
+In comparison, the baseline beta-VAE often either fails to encode specific attribute properly or fails to retain the content of the original data (see the right column in the figure below). 
 <p align="center">
     <img src=../figs/interp_dsprites.png width="600"><br>
 </p> 
