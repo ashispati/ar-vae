@@ -10,7 +10,21 @@ The figure below shows the main idea behind the AR-VAE model.
     <img src=figs/motivation_arvae.svg width=500px><br>
 </p>
 
-This repository contains the source for training and evaluating the AR-VAE models across different image and music-based datasets. 
+This repository contains the source for training and evaluating the AR-VAE models across different image and music-based datasets. Please cite as follows if you are using the code in this repository in any manner.
+
+> Ashis Pati, Siddharth Gururani, Alexander Lerch. "dMelodies: A Music Dataset for Disentanglement Learning", 21st International Society for Music Information Retrieval Conference (ISMIR), Montréal, Canada, 2020.
+
+```
+@article{pati2020arvae,
+  title={{Attribute-based Regularization of Latent Spaces for Variational Auto-Encoders}},
+  author={Pati, Ashis and Lerch, Alexander},
+  journal={Neural Computing and Applications},
+  issn={1433-3058},
+  doi={10.1007/s00521-020-05270-2},
+  url={https://doi.org/10.1007/s00521-020-05270-2},
+  year={2020},
+}
+```
 
 
 ### Results
@@ -75,6 +89,3 @@ The contents of this repository are as follows:
 
 * other scripts to train / test the models
 
-### Attribution
-
-TO BE UPDATED
