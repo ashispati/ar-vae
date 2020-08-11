@@ -74,7 +74,7 @@ Create a new conda environment using the `enviroment.yml` file located in the ro
 
 To install, either download / clone this repository. Open a new terminal, `cd` into the root folder of this repository and run the following command
 
-    pip install -e .
+    python setup.py develop
 
 **Downloading Datasets:** TO BE UPDATED
 
