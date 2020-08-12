@@ -82,6 +82,7 @@ Follow the steps below to download the different datasets:
 * Create a folder named `mnist_data` in `ar-vae/data/` directory. Download the morpho-mist data from this [link](https://drive.google.com/uc?export=download&id=1-E3sbKtzN8NGNefUdky2NVniW1fAa5ZG) and copy the folder named `plain` to the created `mnist_data` folder.
 * Create a folder named `dsprites` in `ar-vae/data/` directory. Clone [this](https://github.com/deepmind/dsprites-dataset) repository and copy its contents to the created `dpsrites` folder.
 * Download the `.zip` file linked [here](https://drive.google.com/file/d/1yvkm0ebyG3XAZ97ZRaiumFUAmlXkY1bA/view?usp=sharing). Unzip it and place the `datasets` and `folk_raw_data` folders in the `ar-vae/data/` directory.
+
 The final `ar-vae/data/` directory should have the following sub-directories:
 ```
 ar-vae/data
