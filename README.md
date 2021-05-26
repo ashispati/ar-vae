@@ -95,6 +95,12 @@ ar-vae/data
         --> plain
 ```
 
+**Downloading Models**
+
+Folow the steps below to download the provided pre-trained models:
+* Create a folder named `models/MnistRESNET` in the root of this repository. Create the `models` folder if it doesn't exist.
+* [Download](https://github.com/ashispati/ar-vae/releases/download/0.1/MnistRESNET.pt) the `MnistRESNET.pt` model file and place it in the above folder. 
+
 ### Contents
 The contents of this repository are as follows: 
 * `data`: contains the data and pytorch `dataloaders` for the different datasets.
